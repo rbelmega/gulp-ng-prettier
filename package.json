@@ -1,11 +1,11 @@
 {
   "name": "gulp-ng-prettier",
   "description": "Create vinyl streams to pipe to prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bhargavrpatel/gulp-prettier.git"
+    "url": "git+https://github.com/rbelmega/gulp-ng-prettier.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
