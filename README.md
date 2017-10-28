@@ -1,4 +1,6 @@
-# Gulp Prettier [![Build Status](https://travis-ci.org/rbelmega/gulp-ng-prettier.svg?branch=master)](https://travis-ci.org/rbelmega/gulp-ng-prettier)
+# Gulp Prettier
+[![Build Status](https://travis-ci.org/rbelmega/gulp-ng-prettier.svg?branch=master)](https://travis-ci.org/rbelmega/gulp-ng-prettier)
+[![GitHub version](https://badge.fury.io/gh/rbelmega%2Fgulp-ng-prettier.svg)](https://badge.fury.io/gh/rbelmega%2Fgulp-ng-prettier)
 
 A [Gulp](http://gulpjs.com/) plugin which allows the users to use [Prettier](https://github.com/jlongster/prettier).
 
