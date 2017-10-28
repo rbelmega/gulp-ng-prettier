@@ -1,3 +1,5 @@
+"use strict";
+
 const through = require('through2'),
   gutil = require('gulp-util'),
   prettier = require('prettier'),
@@ -16,23 +18,27 @@ module.exports = function(opt) {
         'Streaming not supported'
       ));
 
-    let data;
-    let str = file.contents.toString('utf8');
+    var data;
+    var str = file.contents.toString('utf8');
 
-    options = merge(
+    var options = merge(
       {
         // Fit code within this line limit
-        printWidth: 80,
+        printWidth: 100,
         // Number of spaces it should use per tab
         tabWidth: 2,
-        // Use the flow parser instead of babylon
-        useFlowParser: true,
+        // Use tabs instead of spaces
+        useTabs: false,
+        // Specify which parser to use.
+        parser: 'flow',
         // If true, will use single instead of double quotes
         singleQuote: false,
         // Controls the printing of trailing commas wherever possible
-        trailingComma: false,
+        trailingComma: 'none',
         // Controls the printing of spaces inside array and objects
-        bracketSpacing: true
+        bracketSpacing: true,
+        // Print semicolons at the ends of statements
+        semi: true
       },
       opt
     );
@@ -40,7 +46,6 @@ module.exports = function(opt) {
     try {
       data = prettier.format(str, options);
     } catch (err) {
-      console.log('there was a fucking error b!!');
       return callback(new PluginError('gulp-prettier', err));
     }
 
