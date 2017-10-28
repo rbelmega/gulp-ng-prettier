@@ -1,4 +1,4 @@
-# Gulp Prettier [![Build Status](https://travis-ci.org/bhargavrpatel/gulp-prettier.svg?branch=master)](https://travis-ci.org/bhargavrpatel/gulp-prettier)
+# Gulp Prettier [![Build Status](https://travis-ci.org/rbelmega/gulp-ng-prettier.svg?branch=master)](https://travis-ci.org/rbelmega/gulp-ng-prettier)
 
 A [Gulp](http://gulpjs.com/) plugin which allows the users to use [Prettier](https://github.com/jlongster/prettier).
 
@@ -46,4 +46,4 @@ Please consult the [Prettier](https://github.com/jlongster/prettier) README to k
 
 ## License
 
-[MIT License](https://raw.githubusercontent.com/bhargavrpatel/gulp-prettier/master/LICENSE)
+[MIT License](https://raw.githubusercontent.com/rbelmega/gulp-ng-prettier/master/LICENSE)
