@@ -24,23 +24,29 @@ Please consult the [Prettier](https://github.com/jlongster/prettier) README to k
 
 ```js
 {
-  // Fit code within this line limit
-  printWidth: 80,
-
-  // Number of spaces it should use per tab
-  tabWidth: 2,
-
-  // Use the flow parser instead of babylon
-  useFlowParser: false,
-
-  // If true, will use single instead of double quotes
-  singleQuote: false,
-
-  // Controls the printing of trailing commas wherever possible
-  trailingComma: false,
-
-  // Controls the printing of spaces inside array and objects
-  bracketSpacing: true
+    // Fit code within this line limit
+    printWidth: 100,
+  
+    // Number of spaces it should use per tab
+    tabWidth: 2,
+  
+    // Use tabs instead of spaces
+    useTabs: false,
+  
+    // Specify which parser to use.
+    parser: 'flow',
+  
+    // If true, will use single instead of double quotes
+    singleQuote: false,
+  
+    // Controls the printing of trailing commas wherever possible
+    trailingComma: 'none',
+  
+    // Controls the printing of spaces inside array and objects
+    bracketSpacing: true,
+  
+    // Print semicolons at the ends of statements
+    semi: true
 }
 ```
 
