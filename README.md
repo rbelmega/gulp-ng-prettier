@@ -11,12 +11,12 @@ Simply pipe the input, and pass in arguments that you would to the regular forma
 
 ```js
 const gulp = require('gulp'),
-  prettier = require('gulp-prettier');
+  prettier = require('gulp-ng-prettier');
 
 gulp.task('default', () => {
 	gulp.src('*.js')
 	.pipe(prettier({ parser: 'flow' }))
-	.pipe(gulp.dest('./dist'))
+	.pipe(gulp.dest('./'))
 });
 ```
 
