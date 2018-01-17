@@ -1,7 +1,7 @@
 {
   "name": "gulp-ng-prettier",
   "description": "Create vinyl streams to pipe to prettier",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "dependencies": {
     "gulp-util": "3.0.8",
     "merge": "1.2.0",
-    "prettier": "1.8.2",
+    "prettier": "1.10.0",
     "through2": "2.0.3",
     "vinyl-sourcemaps-apply": "0.2.1"
   }
